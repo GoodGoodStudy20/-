@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/shopping-cart/shopping-cart",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/shopping-cart/package-details",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/shopping-cart/shopping-detailsInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/my/pay",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/my/milk-notice",
+			"style": {
+				"navigationBarTitleText": "订奶须知",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2D7AD8",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "components/custom-title",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "晨光学生奶",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#42A4ED",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/home.png",
+			"selectedIconPath": "static/images/tabbar/homeed.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/shopping-cart/shopping-cart",
+			"iconPath": "static/images/tabbar/shopping-cart.png",
+			"selectedIconPath": "static/images/tabbar/shopping-carted.png",
+			"text": "订单列表"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/tabbar/my.png",
+			"selectedIconPath": "static/images/tabbar/myed.png",
+			"text": "个人中心"
+		}]
+	}
+}
